@@ -181,5 +181,5 @@ def save_csv_and_plot(base = 'tfidf', n_clusters = 5):
     # plt.show() #show the plotf
 
 if __name__ == "__main__":
-    save_csv_and_plot(base = 'tfidf', n_clusters = 6)
+    save_csv_and_plot(base = 'tfidf', n_clusters = 7)
     save_csv_and_plot(base = 'dist', n_clusters = 7)
