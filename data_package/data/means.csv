@@ -1,0 +1,354 @@
+story_code,story_name,author_code,publication_year,score,Poison,Knife/sword,Firearm,Explosives,Asphyxiation,Arson,Natural causes,Accident,Indirectly,Tampering,Blunt force trauma,Suicide,Other,Unknown,NA
+MSH01,Silver Blaze,ACD,1892,4,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+MSH02,The Yellow Face,ACD,1893,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+MSH03,The Stock-Broker's Clerk,ACD,1893,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+ASH10,The Adventure of the Noble Bachelor,ACD,1892,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ASH11,The Adventure of the Beryl Coronet,ACD,1892,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ASH12,The Adventure of the Copper Beeches,ACD,1892,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ASH07,The Adventure of the Blue Carbuncle,ACD,1892,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ASH08,The Adventure of the Speckled Band,ACD,1892,5,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+ASH09,The Adventure of the Engineer's Thumb,ACD,1892,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+ASH02,The Red-Headed League,ACD,1891,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+MSH10,The Naval Treaty,ACD,1893,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+MSH11,The Final Problem,ACD,1893,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+RSH01,The Adventure of the Empty House,ACD,1903,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+ASH04,The Boscombe Valley Mystery,ACD,1891,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+MSH07,The Crooked Man,ACD,1893,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+MSH08,The Resident Patient,ACD,1893,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+MSH09,The Greek Interpreter,ACD,1893,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+MSH04,The “Gloria Scott”,ACD,1893,2,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0
+MSH06,The Reigate Puzzle,ACD,1893,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+MSH05,The Musgrave Ritual,ACD,1893,4,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0
+ASH03,A Case of Identity,ACD,1891,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+RSH08,The Six Napoleons,ACD,1904,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+RSH09,The Three Students,ACD,1904,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+RSH10,The Golden Pince-Nez,ACD,1904,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+RSH02,The Norwood Builder,ACD,1903,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+RSH03,The Dancing Men,ACD,1903,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+RSH04,The Solitary Cyclist,ACD,1903,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+RSH05,The Priory School,ACD,1904,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+RSH06,Black Peter,ACD,1904,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+RSH07,Charles Augustus Milverton,ACD,1904,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+HLB01,Wisteria Lodge,ACD,1908,2,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0
+HLB02,The Cardboard Box,ACD,1893,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+HLB03,The Red Circle,ACD,1911,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+HLB04,The Bruce-Partington Plans,ACD,1908,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+HLB05,The Dying Detective,ACD,1913,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+HLB06,Lady Frances Carfax,ACD,1911,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+RSH11,The Adventure of the Missing Three-Quarter,ACD,1904,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+RSH12,The Adventure of the Abbey Grange,ACD,1904,5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+RSH13,The Adventure of the Second Stain,ACD,1904,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+CBSH05,The Sussex Vampire,ACD,1924,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CBSH06,The Three Garridebs,ACD,1924,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+CBSH05,The Thor Bridge,ACD,1924,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+HLB07,The Devil's Foot,ACD,1910,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+HLB08,His Last Bow,ACD,1917,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CBSH01,The Illustrious Client,ACD,1924,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+CBSH02,The Blanched Soldier,ACD,1926,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CBSH03,The Mazarin Stone,ACD,1921,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CBSH04,The Three Gables,ACD,1920,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ASH01,A Scandal in Bohemia,ACD,1891,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ASH05,The Five Orange Pips,ACD,1891,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ASH06,The Man with the Twisted Lip,ACD,1891,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CBSH11,Shoscombe Old Place,ACD,1927,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CBSH12,The Retired Colourman,ACD,1926,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CBSH08,The Creeping Man,ACD,1923,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CBSH09,The Lion's Mane,ACD,1926,4,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+CBSH10,The Veiled Lodger,ACD,1927,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+MHI01,The Lenton Croft Robberies,AM,1894,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+MHI02,The Loss of Sammy Crockett,AM,1894,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+MHI03,The Case of Mr. Foggatt,AM,1894,5,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+CME02,The Hocussing of Cigarette,BO,1905,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CME03,The Tragedy in Dartmoor Terrace,BO,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+CME04,Who Stole the Black Diamonds?,BO,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CMH06,The Case of the Lost Foreigner,AM,1895,3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+AMH01,The Affair of Mrs. Seton's Child,AM,1896,3,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+AMH02,The Case of Mr. Geldard's Elopement,AM,1896,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+MHI07,The Affair of the Tortoise,AM,1894,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CMH01,The Ivy Cottage Mystery,AM,1895,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+CMH02,The Nicobar Billion Case,AM,1895,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+MHI04,The Case of the Dixon Torpedo,AM,1894,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+MHI05,The Quinton Jewel Affair,AM,1905,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+MHI06,The Stanway Cameo Mystery,AM,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CMH05,"The Case of Laker, Absconded",AM,1895,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CMH04,The Case of the Missing Hand,AM,1895,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+CMH03,The Holford Will Case,AM,1895,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PZ03,The S.S.,MPS,1905,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ELB03,The Redhill Sisterhood,CKP,1893,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ELB04,A Princess's Vengeance,CKP,1893,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ELB05,Drawn Daggers,CKP,1893,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ELB06,The Ghost of Fountain Lane,CKP,1893,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ELB07,Missing!,CKP,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+OMIC09,An Unparalleled Outrage,BO,1908,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+OMIC10,The Regent's Park Murder,BO,1908,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+OMIC05,The Liverpool Mystery,BO,1908,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+OMIC06,The Edinburgh Mystery,BO,1908,5,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+AMH04,"The Case of the ""Flitterbat Lancers""",AM,1896,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+AMH03,The Case of the Dead Skipper,AM,1896,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+AMH05,The Case of the Late Mr. Rewse,AM,1896,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+AMH06,The Case of the Ward Lane Tabernacle,AM,1896,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ELB02,The Murder at Troyte's Hill,CKP,1905,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+PZ02,The Stone of the Edmundsbury Monks,MPS,1905,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PZ01,The Race of Orven,MPS,1905,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+OMIC01,The Fenchurch Street Mystery,BO,1908,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ELB01,The Black Bag Left on a Door-Step,CKP,1905,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+OMIC07,The Theft at the English Provident Bank,BO,1908,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+OMIC08,The Dublin Mystery,BO,1908,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+OMIC02,The Robbery in Phillimore Terrace,BO,1908,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+OMIC03,The York Mystery,BO,1908,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+OMIC04,The Mysterious Death on the Underground Railway,BO,1908,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LMSY07,A Christmas Tragedy,BO,1905,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LMSY08,The Bag Of Sand,BO,1905,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LMSY09,The Man In The Inverness Cape,BO,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+LMSY01,The Ninescore Mystery,BO,1905,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+LMSY02,The Frewin Miniatures,BO,1905,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+LMSY03,The Irish-Tweed Coat,BO,1905,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LMSY04,The Fordwych Castle Mystery,BO,1905,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LMSY05,A Day’s Folly,BO,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+LMSY06,A Castle In Brittany,BO,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+OMIC11,The De Genneville Peerage,BO,1908,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+OMIC12,The Mysterious Death in Percy Street,BO,1908,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+CME06,The Lisson Grove Mystery,BO,1904,5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+CME05,The Murder of Miss Pebmarsh,BO,1904,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+CME01,The Case of Miss Elliott,BO,1908,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+CME07,The Tremarn Case,BO,1905,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+CME08,The Fate of the Artemis,BO,1905,3,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+CME09,The Disappearance of Count Collini,BO,1905,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CME10,The Ayrsham Mystery,BO,1905,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+CME11,The Affair at the Novelty Theatre,BO,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CME12,The Tragedy of Barnsdale Manor,BO,1905,4,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+LMSY10,The woman in the big hat,BO,1905,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LMSY11,Sir Jeremiah’s Will,BO,1905,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+PVDS01,The Mystery of Cell 13,JF,1905,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS02,The Problem of Dressing Room A,JF,1906,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PVDS03,The Problem of the Motor Boat,JF,1906,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PVDS04,A Piece of String,JF,1906,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS05,The Problem of the Crystal Gazer,JF,1906,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+MC07,The Comedy at Fountain Cottage,EB,1913,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+MC08,The Game Played in the Dark,EB,1913,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS06,The Roswell Tiara,JF,1906,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS07,The Problem of the Lost Radium,JF,1906,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS08,The Problem of the Opera Box,JF,1906,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+PVDS09,The Problem of the Missing Necklace,JF,1906,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS10,The Problem of the Green-Eyed Monster,JF,1906,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+JTC01,The Man with the Nailed Shoes,AF,1905,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+MC01,The Coin of Dionysius,EB,1913,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+MC02,The Knight’s Cross Signal Problem,EB,1913,4,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+MC03,The Tragedy at Brookbend Cottage,EB,1913,3,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+MC04,The Clever Mrs Straithwaite,EB,1913,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+MC05,The Last Exploit of Harry the Actor,EB,1913,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+MC06,The Tilling Shaw Mystery,EB,1913,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+TSB03,The Echo of a Mutiny,AF,1905,4,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+TSB04,A Wastrel’s Romance,AF,1905,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+TSB05,The Old Lag,AF,1905,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+JTC02,The Stranger's Latchkey,AF,1905,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+JTC03,The Anthropologist at Large,AF,1905,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+JTC04,The Blue Sequin,AF,1905,5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+JTC05,The Moabite Cipher,AF,1905,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+JTC06,The Mandarin's Pearl,AF,1905,5,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+JTC07,The Aluminium Dagger,AF,1905,3,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+JTC08,A Message from the Deep Sea,AF,1905,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+TSB01,The Case of Oscar Brodski,AF,1905,3,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+TSB02,A Case of Premeditation,AF,1905,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+TCD04,The Golden Key,EWH,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+TCD05,A Schoolmaster Abroad,EWH,1905,2,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+TCD06,One Possessed,EWH,1905,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+PVDS34,The Grinning God,JF,1907,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS35,The Disappearance of Baby Blake,JF,1907,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS36,The Mystery of Prince Otto,JF,1912,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS37,The Tragedy of the Life-Raft,JF,1912,2,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+PVDS38,The Case of the Scientific Murderer,JF,1912,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+PVDS39,The Jackdaw,JF,1912,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS40,The Great Auto Mystery,JF,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS41,The Mystery of the Fatal Cipher,JF,1907,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS42,The Mystery of the Flaming Phantom,JF,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+PVDS43,The Mystery of the Golden Dagger,JF,1905,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+PVDS14,The Problem of the Stolen Bank Notes,JF,1906,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS15,The Problem of the Superfluous Finger,JF,1906,4,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+PVDS16,My First Experience with the Great Logician,JF,1907,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS17,The Problem of the Knotted Cord,JF,1907,2,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+PVDS18,The Problem of the Souvenir Cards,JF,1907,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS24,Problem of the Private Compartment,JF,1907,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+PVDS25,The Problem of the Cross Mark,JF,1907,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS26,The Problem of the Ghost Woman,JF,1907,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS27,The Silver Box,JF,1907,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS28,The Problem of Convict No. 97,JF,1907,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS29,The Problem of the Deserted House,JF,1907,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS30,Problem of the Red Rose,JF,1907,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+PVDS31,The Problem of the Vanishing Man,JF,1907,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS32,The Problem of the Broken Bracelet,JF,1907,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS33,Problem of the Interrupted Wireless,JF,1907,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPM01,The Great Portrait Mystery,AF,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+GPM03,The Missing Mortgagee,AF,1905,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+GPM05,Percival Bland's Proxy,AF,1905,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS19,The Problem of the Stolen Rubens,JF,1907,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS20,The Three Overcoats,JF,1907,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS21,The Problem of the Organ Grinder,JF,1907,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS22,The Problem of the Hidden Million,JF,1907,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS23,The Problem of the Auto-Cab,JF,1907,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS11,The Problem of the Perfect Alibi,JF,1906,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+PVDS12,Problem of the Phantom Auto,JF,1906,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS13,The Haunted Bell,JF,1906,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+ATT05,The Missing Bride,JEPM,1900,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ATT17,The Yankee Tourist,JEPM,1900,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ATT06,Loved and Lost,JEPM,1900,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ATT18,Clinton & Hills' Deed-box,JEPM,1900,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ATT07,The Forged Cheque,JEPM,1900,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ATT19,The Mysterious Passenger,JEPM,1900,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ATT08,The Gold-Seeker's Strange Fate: An Astounding Romance of Real Life,JEPM,1900,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ATT20,The Stolen Picture,JEPM,1900,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ATT21,The Private Secretary,JEPM,1900,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ATT11,The Mystery of the Gravel Pits Farm,JEPM,1900,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+ATT12,The Sign of the Yelllow Star,JEPM,1900,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ATT13,Tracked by Teeth,JEPM,1900,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ATT14,The Band of Three,JEPM,1900,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ATT15,An Unsolved Problem,JEPM,1900,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ATT16,The New Tenant,JEPM,1900,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ATT09,With a Passing Glory,JEPM,1900,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CKS01,The Case of Helen Bond (The Silent Cracksman),ABR,1910,4,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+CKS03,The Bacteriological Detective,ABR,1911,3,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0
+PVDS44,The Mystery of the Grip of Death,JF,1905,3,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+PVDS45,The Mystery of the Man Who Was Lost,JF,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS46,The Mystery of a Studio,JF,1905,2,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+PVDS47,The Mystery of the Ralston Bank Burglary,JF,1905,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+PVDS48,The Mystery of the Scarlet Thread,JF,1905,3,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+ATT01,The Queensferry Mystery,JEPM,1900,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CKS15,The Master Counterfeiter,ABR,1912,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CKS16,The Firebug (The Firefiend),ABR,1912,2,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+CKS17,The Yeggman,ABR,1912,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+CKS18,The Poisoned Pen,ABR,1912,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ATT01,The Queensferry Mystery,JEPM,1900,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ATT02,The Clue of the Silver Jug,JEPM,1900,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ATT03,Tracing a Traitor,JEPM,1900,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ATT04,The Big Loan Fraud,JEPM,1900,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CKS04,(The Story of) The Deadly Tube,ABR,1911,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CKS35,The Bomb-Maker,ABR,1913,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CKS36,The Ghouls,ABR,1913,3,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+CKS39,The Billionaire Baby,ABR,1914,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CKS40,The Radium Robber,ABR,1914,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CKS41,The Eugenic Bride,ABR,1914,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CKS25,The Kleptomaniac,ABR,1912,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CKS26,The Opium Joint,ABR,1913,2,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+CKS27,The Vampire,ABR,1913,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+CKS28,The Green Curse,ABR,1913,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+CKS29,The Sybarite,ABR,1913,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CKS30,The Phantom Circuit,ABR,1913,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CKS42,The Dead-Line,ABR,1914,4,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+CKS43,The Curio Shop,ABR,1914,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CKS44,The Germ Letter,ABR,1914,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CKS45,The Wireless Wire-Tappers,ABR,1914,3,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+CKS46,The Family Skeleton,ABR,1914,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CKS08,(A Case Of) Spontaneous Combustion,ABR,1911,3,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+CKS09,The Terror in the Air,ABR,1911,3,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+CKS19,The White Slave,ABR,1912,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+CKS20,The Forger,ABR,1912,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CKS21,The Unofficial Spy,ABR,1912,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CKS22,The Smuggler,ABR,1912,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+CKS23,(Craig Kennedy and) The Invisible Ray,ABR,1912,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CKS24,The Campaign Grafter,ABR,1912,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CKS10,The Black Hand,ABR,1911,4,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+CKS11,The Artificial Paradise (The Man Who Was Dead),ABR,1911,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CKS12,The Steel Door,ABR,1911,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CKS13,The Sand-Hog (The Tunnel Mystery),ABR,1911,3,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0
+CKS14,The Bacillus of Death,ABR,1912,3,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+CKS05,The Seismograph Adventure,ABR,1911,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CKS06,(The Story of) The Diamond Maker,ABR,1911,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CKS07,The Azure Ring,ABR,1912,3,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+CKS31,The Elixir of Life,ABR,1913,3,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0
+CKS32,The Dream Doctor,ABR,1913,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CKS33,The Death House,ABR,1913,3,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+CKS34,The Submarine Mystery,ABR,1913,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CKS02,The Silent Bullet,ABR,1911,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+CKS62,The Voodoo Mystery,ABR,1915,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CKS63,The Treasure-Train,ABR,1916,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CKS65,The Truth-Detector,ABR,1916,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CKS66,The Soul-Analysis,ABR,1916,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CKS47,The Devil-Worshippers,ABR,1914,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CKS48,Happy Dust,ABR,1914,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CKS58,The Evil Eye,ABR,1915,3,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+CKS59,The House of Death,ABR,1915,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CKS60,The Demon Engine,ABR,1915,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CKS61,The Social Gangster,ABR,1915,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CKS49,The Murder Syndicate,ABR,1914,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CKS51,The Diamond-Queen,ABR,1915,2,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+CKS52,The X-Ray Detective,ABR,1915,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CKS53,The Tango Thief,ABR,1915,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CKS54,The Supertoxin,ABR,1915,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+CKS67,The Mystic Poisoner,ABR,1916,2,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+ADP05,The Staircase at the Heart's Delight,AKG,1905,3,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+ADP06,The Hermit of -------- Street,AKG,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+RNT01,Room Number 3,AKG,1905,3,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0
+RNT03,The Ruby and the Caldron,AKG,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+RNT04,The Little Steel Coils,AKG,1905,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+RNT07,The Grey Lady,AKG,1905,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CKS55,The Sixth Sense,ABR,1915,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+CKS56,The Absolute Zero,ABR,1915,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+RNT08,The Thief,AKG,1905,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CKS57,The Sleep-Maker,ABR,1915,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+OSH02,A Memorable Night,AKG,1905,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+OSH04,A Mysterious Case,AKG,1905,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+OSH05,Shall He Wed Her?,AKG,1905,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ADP01,A Difficult Problem,AKG,1905,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ADP02,The Gray Madam,AKG,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ADP03,The Bronze Hand,AKG,1905,4,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ADP04,Midnight in Beauchamp Row,AKG,1905,5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+TGS05,The Dreaming Lady,AKG,1905,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+TGS06,The House of Clocks,AKG,1905,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+TGS07,"The Doctor, His Wife, and the Clock",AKG,1905,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+TGS08,Missing: Page Thirteen,AKG,1905,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+TSOTR06,The Affair of the German Dispatch-box,VW,1905,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+TSOTR08,The Adventure of the Pilot Engine,VW,1905,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+TSOTR09,The Stolen Necklace,VW,1905,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+TSOTR10,The Mystery of the Boat Express,VW,1905,2,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+TGS01,The Golden Slipper,AKG,1905,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+TGS02,The Second Bullet,AKG,1905,3,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0
+TGS03,An Intangible Clue,AKG,1905,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+TGS04,The Grotto Spectre,AKG,1905,4,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+TSOTR01,Peter Crane's Cigars,VW,1905,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+TSOTR03,The Affair of the Corridor Express,VW,1905,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+TSOTR04,Sir Gilbert Murrell's Picture,VW,1905,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+TSOTR05,How the Bank Was Saved,VW,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+TSOTR02,The Tragedy on the London and Mid-northern,VW,1905,3,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+TSOTR15,The Ruse That Succeeded,VW,1905,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+IZ02,Cheating the Gallows,IZ,1905,3,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+TEV01,The Mystery of the Five Hundred Diamonds,RB,1905,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+TEV03,The Clue of the Silver Spoons,RB,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+TEV04,Lord Chizelrigg's Missing Fortune,RB,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+UAMM01,The Doomdorf Mystery,MDP,1905,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+UAMM02,The Wrong Hand,MDP,1905,4,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+UAMM03,The Angel of the Lord,MDP,1905,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+UAMM04,An Act of God,MDP,1905,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+TEV02_02,The Siamese Twin of a Bomb-Thrower (Part II),RB,NA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+TEV02_01,The Siamese Twin of a Bomb-Thrower (Part I),RB,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+TEV05,The Absent-Minded Coterie,RB,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+TEV06,The Ghost with the Club-Foot,RB,1905,4,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0
+TEV08,Lady Alicia's Emeralds,RB,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+TEV07,The Liberation of Wyoming Ed,RB,1905,3,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+UAMM15,The Concealed Path,MDP,1905,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+UAMM16,The Edge of the Shadow,MDP,1905,4,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0
+UAMM17,The Adopted Daughter,MDP,1905,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+UAMM18,Naboth's Vineyard,MDP,1905,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+UAMM10,The Devil’s Tools,MDP,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+UAMM11,The Hidden Law,MDP,1905,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+UAMM12,The Riddle,MDP,1905,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+UAMM13,The Straw Man,MDP,1905,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+UAMM14,The Mystery of Chance,MDP,1905,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+UAMM05,The Treasure Hunter,MDP,1905,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+UAMM06,The House of the Dead Man,MDP,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+UAMM07,A Twilight Adventure,MDP,1905,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+UAMM08,The Age of Miracles,MDP,1905,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+UAMM09,The Tenth Commandment,MDP,1905,3,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+CTMD10,The Riddle Of The Siva Stones,TWH,1905,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+CTMD11,The Divided House,TWH,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CTMD12,The Riddle Of The Rainbow Pearl,TWH,1905,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CSD03,The Hog,TWH,1905,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CTMD06,The Wizard's Belt,TWH,1905,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+CTMD07,The Riddle of the 5.28,TWH,1905,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+CTMD08,The Lion's Smile,TWH,1905,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+CTMD09,The Mystery of the Steel Room,TWH,1905,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CSD02,The Find,WHH,1905,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CTMD02,The Problem Of The Red Crawl,TWH,1905,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+CTMD03,The Riddle Of The Sacred Son,TWH,1905,3,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0
+CTMD04,The Caliph's Daughter,TWH,1905,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+CTMD05,The Riddle Of The Ninth Finger,TWH,1905,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CSD01,The Haunted Jarvee,WHH,1905,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
