@@ -1,5 +1,5 @@
 ---
-title: "Text Analysis for Detective Stories"
+title: "Text Data Mining for Detective Stories"
 author: "Yun-Hsiang (Ray) Chan"
 output:
   pdf_document: default
@@ -16,24 +16,43 @@ library(LaplacesDemon)
 library(coin)
 ```
 
+# 1. Abstract
 
-# I. Introduction
+Detective story is a subgenre of crime and mystery fiction in which an investigator conducts investigation on a crime, always a murder. These detective stories occurred since mid-nineteenth century and has remained extremely popular over years.  
 
-In the EDA section, we have already conducted a complete investigation on the components of detective stories from readers' annotations. However, there isn't much interesting insight show up in the EDA section.  
+In this paper, we collaborate with researchers from Department of English Literature, collecting a dataset with over 400 manual annotations and text of different detective stories. Combining traditional statistical analysis as well as various text data mining methods, we focus on investigating the situation of affective states of detective stories with different components, the evolution of components in detective stories, and the potential text features that might differentiates the stories.  
 
-Instead of further proving the obvious conclusions from EDA part, we decide to analyze these stories from the text side, try to dig into text features of detective stories and see whether there's any interesting fact.  
+In conclusion, although we can't specify the true factors that differentiates the stories, we successfully find the difference of topics over decades and prove that the affective states varies substantially when stories are composed of different components.
 
-One of the research questions our collaborators want to know is the evolution of detective stories. Our statistical analysis will focus on this part, try to see whether there's any special features from text between detective stories from different decades or years.  
+# 2. Introduction
 
-If there's nothing that can distinguish stories between decades, then we might want to see what is the key components differentiating the text features from different stories.
+Detective story is a type of crime and mystery fiction remains popular for decades. Over the decades, many researchers are strongly interested in analyzing the detective stories from different aspects. English literature researchers always want to know the most important component that contributes to a good detective stories, the evolution of detective stories over years, and the situation of affective states in detective stories with different components.  
 
-To do the text analysis, we will introduce the idea of **tf-idf score** for each word in text as the text feature of each document. Then we will implement the **K-means clustering algorithm** to fit these features and assign clusters for different stories. Lastly, we will plot the clusters out as a preliminary insight, and do hypothesis testing to figure out the potential feature that determine the clustering result. 
+Previously, researchers can only collect human-annotated dataset and conduct traditional statistical analysis such as hypothesis testing or regression analysis to do quantitative analysis. Recently, with the advancement of text data mining and natural language processing techniques, researchers start to utilize these novel techniques for finding hidden facts from the text data. In this paper, by combining traditional statistical analysis skills such as hypothesis testing and the latest text data mining techniques such as sentiment analysis, we try to tackle the evolution of detective stories and the situation of affective states in different detective stories. In the meanwhile, we also try to investigate the hidden text features that might differentiates the stories.  
 
-# II. Clustering, Plotting and Preliminary Investigation
+For the remainder of the paper:  
 
-In this section, our goal is to assign clusters to detective stories based on their content.  
+- Section 3 is about the method, where 3.1 is about EDA method, 3.2 is about sentiment analysis method, 3.3 is about emotion analysis method, and 3.4 is about tf-idf feature extraction and clustering method.  
 
-There are 3 main steps:  
+- Section 4 and its subsection are about the conclusion we obtain from each method section.  
+
+- Section 5, the last section, is the conclusion and discussion of this research.  
+
+For the analysis about evolution of detective stories, although we try to investigate the question through different methods (either in the sentiment or emotion analysis part, or in the clustering part), it's hard to see any trend since the size of the dataset is small, and our main conclusions are from the EDA of annotated dataset.  
+
+For analysis about the situation of affective states, we reach our conclusion through sentiment analysis and emotion analysis.  
+
+And lastly, for analysis about the hidden text features that might differentiates the stories, we conduct the investigation by doing clustering on tf-idf features, while there's no discrete conclusion that we can reach at the current stage. The question can be furthered investigated by other researchers in future.  
+
+
+
+# 3. Methods
+
+## 3.4 Clustering through tf-idf features
+
+In this subsection, our goal is to assign clusters to detective stories based on their content. The main purpose is to dig out the potential text features that differentiates the stories, where our main expectation is that some stories are differentiating by their publication years.
+
+There are 3 main steps for this method:  
 
 1. Calculate tf-idf scores for each word (excluding some rare and common words) as the representation vector for each detective story.  
 2. Implement K-means clustering algorithm for assigning the clusters.  
@@ -43,7 +62,7 @@ These 3 steps will be dismantled into 6 subsections.
 
 We will introduce the idea, the implementation details and the conclusion from all steps above.  
 
-## 2.1 Introduction to the idea of tf-idf
+## 3.4.1 Introduction to the idea of tf-idf
 
 The tf-idf score, short for **term frequency-inverse document frequency**, is a numerical statistic that is intended to reflect how important a word is to a document in a collection of corpus. It's often used as a weighting factor in searches of information retrieval, text mining, and user modeling.  
 
@@ -61,9 +80,7 @@ $$f_{t,d} \text{ is the number of times that term t occurs in document occurs in
 
 - This indicates that "doctor" is a comparatively crucial word than "knife" to this story.
 
-(Reference: https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
-
-## 2.2 tf-idf scores as representation vector
+## 3.4.2 tf-idf scores as representation vector
 
 After introducing the idea of tf-idf, it's time to introduce how can we use them as a representation vector.
 
@@ -87,7 +104,7 @@ The reason to set threshold is to reduce the noise of common word like 'he' or '
 
 At the end, we have a vector with 425 dimensions for each detective story, with each dimension represent the tf-idf of the term. Each term must appear in more than 50% of documents, or less than 80% of documents.  
 
-## 2.3 K-means clustering and Dimensionality reduction by MDS.
+## 3.4.3 K-means clustering and Dimensionality reduction by MDS.
 
 As we have the representation vectors, we can assign clusters for each story based on the vectors.  
 
@@ -117,10 +134,6 @@ We implement K-means clustering to assign the cluster and draw the plots by:
 
 - MDS is a means of visualizing the level of similarity of individual cases of a dataset. It's used to translate "information about the pairwise distances among a set of n objects" into a configuration of n points mapped into an abstract Cartesian space (2-dimensional space).  
 
-(Reference 1: https://en.wikipedia.org/wiki/K-means_clustering)  
-
-(Reference 2: https://en.wikipedia.org/wiki/Multidimensional_scaling)  
-
 ### Why doing clustering on both tf-idf matrix and similarity distance matrix?
 
 - The similarity distance matrix was originally computed for visualization. However, we find something interesting when doing the clustering.
@@ -135,7 +148,9 @@ We implement K-means clustering to assign the cluster and draw the plots by:
 
 - In terms of clustering methods, we also try the hierarchical clustering method. The hierarchical clustering method will produce a similar clustering result for distance matrix, like the one we can obtain by K-means clustering, while it produces an inconsistent result for tf-idf matrix clustering. Therefore, to compare the clusters produced by two matrices at the same time, we believe K-means is more suitable in this case.  
 
-## 2.4 EDA
+## 4.4 Text Feature Clustering Results
+
+### 4.4.1 Clustering EDA results
 
 The two plots are clustering result on tf-idf matrix or distance matrix with author code.  
 
@@ -167,19 +182,19 @@ For example, the stories from JF (Jacques Furtelle) are likely to be assigned to
 
 Other clusters based on authors are stories from ABR (Arthur B. Reeve) or MDP (Melville Davisson Post) by distance matrix clustering.
 
-## 2.5 Interesting Facts
+#### Interesting Facts
 
 There are still some clusters are assigned with other reasons, and these reasons are not publication years.  
 
 **Note: the plots with publication year information are provided in the Appendix 2. There are also comments for justifying my claim.**
 
-### Fact A: Cluster 1 and 5 in tf-idf matrix clustering
+#### Fact A: Cluster 1 and 5 in tf-idf matrix clustering
 
 One interesting fact is that, while stories from ABR (Arthur B. Reeve) are assigned to the same cluster by distance matrix clustering, they are divided into different clusters by tf-idf matrix clustering. And from empirical experiments, if we choose *n_clusters = 6* (now it's 7), then these stories won't be divided into different clusters by tf-idf matrix clustering.  
 
 This indicates that there are some crucial text features in tf-idf matrix that could be used to distinguish between cluster 1 and 5 in plot 2, while these features can't be captured by similarity distances.  
 
-### Fact B: Cluster 3 and 6 in distance matrix clustering
+#### Fact B: Cluster 3 and 6 in distance matrix clustering
 
 The other interesting fact is that, while cluster 2 from tf-idf matrix clustering (plot 2) looks like a combination of all remaining stories (this is even more obvious when *n_clusters = 3* or *4*), the similarity distance clustering  method (plot 1) can assign different clusters for them (cluster 3 and cluster 6).  
 
@@ -224,10 +239,7 @@ Let's first look at the two tables below.
 ```{r, echo = FALSE}
 # Read the data
 crime_data <- read.csv("data_package/data/crime_types.csv")
-means_data <- read.csv("data_package/data/means.csv")
 motive_data <- read.csv("data_package/data/motive_types.csv")
-clue_data <- read.csv("data_package/data/clues.csv")
-evidence_data <- read.csv("data_package/data/evidence.csv")
 
 dist_cluster_data <- read.csv('data_package/cluster_df_dist.csv')
 dist_cluster_data <- dist_cluster_data %>% select(story_code, label)
@@ -289,6 +301,13 @@ table_df_motive <- data.frame(`Motive Types` = names(grouped_motive[, 3:14]), `C
 knitr::kable(table_df_crime)
 knitr::kable(table_df_motive)
 ```
+
+```{r}
+cluster_crime <- left_join(dist_cluster_data, crime_data, by = 'story_code') %>% 
+  filter(label == 3 | label == 6)
+cluster_crime %>% arrange(publication_year) %>% select(story_name, label, publication_year, author_code)
+```
+
 
 From these two tables, we can know that for either group, the two clusters are not coming from a particular crime type or motive type.  
 
@@ -371,11 +390,134 @@ I choose this topic as a challenge of learning new things and conduct insightful
 
 The design and choice of hypothesis test in the analysis part is not completely reasonable. The test itself and some assumptions might not be suitable for the research question. This is mainly because of the unconventional dataset we have and the difficult question that we want to investigate.  
 
-Even if I feel like they are not absolutely reasonable, I still try to put some traditional statistical analysis component to form it as a report that is originally expected in STA490.  
+However, it's too hard to find the pattern and analyze further without the insight and domain knowledge from our collaborators. The only choice to keep the analysis part is to include these tests.  
 
-However, I still believe that to obtain a more meaningful text data analysis, it's better to communicate and cooperate with our collaborators for in-depth understanding of the stories (those clusters) rather than doing the testing like this analysis.  
+Therefore, even if the tests are not absolutely reasonable, I still keep them in the report and structure the report as the one that is originally expected in STA490.  
 
-I hope my decisions wouldn't be criticized and hurt the grade of this project.
+I still believe that to obtain a more meaningful text data analysis, it's better to communicate and cooperate with our collaborators for in-depth understanding of the stories (those clusters) rather than doing the testing like this analysis.  
+
+I hope my decisions wouldn't be criticized and hurt the grade of this project.  
+
+
+
+# V. Sentiment Analysis 
+
+In this section, we mainly focus on another research question: whether the sentiments in the first and second portion of detective stories change over years.
+
+## 5.1 Data Cleaning
+
+We first clean the data by unicode normalization and manual check of punctuation, and eventually find the reveal border sentences recorded in the input_form.csv. The issues encountered are provided below:
+
+1. There are some annotations that don't match the stories (i.e. the reveal border sentence can't be found successfully). These stories are: 'OMIC04', 'ASH09', 'OMIC03', 'CKS53', 'PVDS41', 'CBSH05'. The problem for each of them are provided in project log.  
+
+
+2. There are some stories without an explicit reveal border sentence provided in the input_form.csv. These stories are:  'ASH01', 'CBSH10', 'LMSY03', 'MC03', 'GPM01', 'OSH05', 'TSOTR15', 'TEV02_02', 'TEV02_01'.  
+
+3. There are some stories provided but not annotated in the input_form.csv. These stories are These stories are: 'TEV02': 'TEV02 - Cassie Côté(1).txt', 'TCD03': 'TCD03 - Wen W..txt', 'TCD02': 'TCD02 - Wen W..txt', 'TCD01': 'TCD01 - Wen W..txt'.  
+
+4. There are some stories annotated but aren't provided as the plain texts. These stories are: 'CKS21'.
+
+Apart from these problematic annotations or stories, we get the first and second (investigation & reveal) portions of each detective story annotated in the input_form.csv.
+
+## 5.2 Lexicon-based Sentiment Analysis
+
+For the sentiment analysis, we utilize the 'nltk' and 'vaderSentiment' package in python. The steps are:  
+
+1. Perform sentence tokenization (i.e. separate a complete paragraph to different sentences) by nltk.  
+
+2. Clean each sentence by removing punctuation and number.  
+
+3. Perform word tokenization (i.e. separate a complete sentence to different words) on each sentence by nltk.  
+
+4. Do pos tagging (i.e. categorizing words in a text in correspondence with a particular part of speech) by nltk.  
+
+5. Remove stop words (i.e. the most common words in any language) by nltk.  
+
+6. Do lemmatization (i.e. grouping together the inflected forms of a word so they can be analysed as a single item. For example, make 'am', 'is', 'are' -> 'be') by ntlk.  
+
+7. Perform sentiment analysis on the lemma list of each sentence by vaderSentiment. The package provides the analysis for each lemma list and give a score.  
+
+- The score is restricted between -1 and 1.  
+
+- A score greater than or equal to 0.5 implies a positive sentence.  
+
+- A score less than or equal to -0.5 implies a negative sentence.  
+
+- Otherwise, it implies a neutral sentence.  
+
+8. Record the proportion of positive, negative and neutral sentences of each detective stories in each portion. Save the csv file.  
+
+## 5.3 Trend Analysis
+
+```{r, include = FALSE}
+senti <- read.csv("data_package/sentiment.csv")
+senti <- left_join(senti, crime_data %>% rename(code = 'story_code') %>% select(code, publication_year), on = 'code')
+```
+
+Now it's time to look at the trend of these proportions. These two plots are the line plot of proportion of positive, negative, and neutral sentences in the first and second portion changes over year. From these two plots, it's obvious that there is no explicit trend.
+
+```{r, echo = FALSE, out.width = "50%"}
+grouped_senti <- 
+  aggregate(senti[, 2:9], list(senti$publication_year), mean) %>% 
+  mutate_if(is.double, round, digits = 2) %>% 
+  rename(publication_year = 'Group.1')
+
+grouped_senti %>% ggplot(aes(x = publication_year)) + geom_line(aes(y = first_negative, color = 'Negative')) + geom_line(aes(y = first_positive , color = "Positive")) + geom_line(aes(y = first_neutral, color = "Neutral")) + xlab("Publication Year") + ylab("Proportion of sentences") + ggtitle("The Proportion of Positive, Negative, Neutral sentences in first portion by Year")
+
+grouped_senti %>% ggplot(aes(x = publication_year)) + geom_line(aes(y = second_negative, color = 'Negative')) + geom_line(aes(y = second_positive , color = "Positive")) + geom_line(aes(y = second_neutral, color = "Neutral")) + xlab("Publication Year") + ylab("Proportion of sentences") + ggtitle("The Proportion of Positive, Negative, Neutral sentences in second portion by Year")
+```
+To compare the difference of each sentiment between first and second proportion, we group the publication year by decade as follow:  
+
+```{r, echo = FALSE}
+decade_senti <- senti %>% 
+  mutate(decade = ifelse(publication_year <= 1900, "1891-1900", ifelse(publication_year <= 1910, "1901-1910", "1911-1927")),
+         decade_level = ifelse(publication_year <= 1900, 1, ifelse(publication_year <= 1910, 2, 3)))
+
+t <- decade_senti %>% 
+  group_by(decade, decade_level) %>% 
+  summarise(count = n(), .groups = "drop") %>% 
+  filter(!is.na(decade)) %>% select(decade, decade_level, count)
+
+knitr::kable(t)
+```
+
+And the plots of mean proportion of different sentiments in different decade are plotted below.  
+
+```{r, echo = FALSE, out.width = "50%"}
+aggregate_senti <- aggregate(decade_senti[, 2:9], list(decade_senti$decade_level), mean) %>% rename(decade_level = "Group.1")
+
+# grouped_senti %>% ggplot(aes(x = publication_year)) + geom_line(aes(y = first_negative, color = 'Negative in first portion')) + geom_line(aes(y = second_negative , color = "Negative in second portion")) + xlab("Publication Year") + ylab("Proportion of sentences") + ggtitle("The Proportion of Negative sentences in the first and second portion by Year")
+
+# grouped_senti %>% ggplot(aes(x = publication_year)) + geom_line(aes(y = first_positive, color = 'Positive in first portion')) + geom_line(aes(y = second_positive , color = "Positive in second portion")) + xlab("Publication Year") + ylab("Proportion of sentences") + ggtitle("The Proportion of Positive sentences in the first and second portion by Year")
+
+aggregate_senti %>% ggplot(aes(x = decade_level)) + geom_line(aes(y = first_negative, color = 'Negative in first portion')) + geom_line(aes(y = second_negative , color = "Negative in second portion")) + xlab("Publication Year") + ylab("Mean Proportion of sentences") + ggtitle("The Mean Proportion of Negative sentences in the first and second portion by Decade")
+
+aggregate_senti %>% ggplot(aes(x = decade_level)) + geom_line(aes(y = first_positive, color = 'Positive in first portion')) + geom_line(aes(y = second_positive , color = "Positive in second portion")) + xlab("Publication Year") + ylab("Mean Proportion of sentences") + ggtitle("The Mean Proportion of Positive sentences in the first and second portion by Decade")
+
+aggregate_senti %>% ggplot(aes(x = decade_level)) + geom_line(aes(y = first_neutral, color = 'Neutral in first portion')) + geom_line(aes(y = second_neutral , color = "Neutral in second portion")) + xlab("Publication Year") + ylab("Mean Proportion of sentences") + ggtitle("The Mean Proportion of Nuetral sentences in the first and second portion by Decade")
+```
+
+From these three plots, we can know that the trend is still not obvious between each decade. Therefore, we can conclude that the sentiments in different portions of decective stories didn't change a lot over years.  
+
+# VI. XGBoost for Choosing Readers' Favorite Topics
+
+In this section, we utilize XGBoost Classifier for choosing the readers' (annotators') favorite topics (components of stories). 
+
+## 6.1 Introduction to XGBoost
+
+XGBoost (Extreme Gradient Boosting) is a decision-tree-based ensemble Machine Learning algorithm that uses a gradient boosting framework.  
+
+The reason to choose this method is that decision tree based algorithms are considered the best type of algorithms for handling small-to-medium tabular data, and XGBoost is considered the best one among them in the Kaggle competition. It outperforms most on the model and trains very fast.
+
+## 6.2. Construct XGBoost Classifiers for Readers' Recommendation
+
+The labels for training XGBoost is "Would you recommend this story to a friend", which is a binary classification problem.  
+
+To examine the influence of each components of the stories, we train 3 different XGBoost Classifiers for motive types, crime types and other potential categorical variables in the input_form.csv dataset.  
+
+We didn't construct one classifier for all these variables, because the connections between these three factors is not obvious and we want to focus on the internal influences from each of these three factors itself.
+
+## 6.3
 
 \newpage
 
@@ -385,7 +527,7 @@ To deal with the text data, we utilize python instead of R. I upload all python 
 
 The preprocessing includes the text data normalization and partitions. The partition-by-reveal-border process was initially designed for doing sentiment analysis, which was mentioned by the collaborators. But since the target for this task is vague, and unsupervised sentiment analysis is harder than expected, we give up the plan eventually. 
 
-You can do 'python \{path\}/main.py' in the terminal / bash to run the process of doing preprocessing, tf-idf counting, clustering and plotting. The path inside the python program might be changed, depending on the directory root that you run the program.  
+You can do 'python \{path\}/data_pacakage/main.py' in the terminal / bash to run the process of doing preprocessing, tf-idf counting, clustering and plotting. The path inside the python program might be changed, depending on the directory root that you run the program.  
 
 I was too busy in these few weeks. As the grading rubric doesn't ask for a cleaned python code, I didn't add much annotations and clean my python code for your convenience. However, I am willing to do that if the TA, the instructor or the collaborators want to trace my code in future.  
 
